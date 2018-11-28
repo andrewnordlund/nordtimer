@@ -1,0 +1,14 @@
+{
+	"extensionName" : {
+		"message" : "Chronomètre de Nordburg",
+		"description" : "Name of the extension."
+	},
+	"MSG_extensionDescription" : {
+		"message" : "Un simple chronomètre.",
+		"description" : "Description of the extension."
+	},
+	"browserActionTitle" : {
+		"message" : "Un chronomètre dans votre navigateur",
+		"description" : "What the icon shows?"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"manifest_version": 2,
+	"name": "__MSG_extensionName__",
+	"description": "__MSG_extensionDescription__",
+	"version": "1.0.0",
+	"homepage_url": "https://www.nordburg.ca/ext/home.php",
+	
+	"icons": {
+		"48": "icons/timer-48.png",
+		"96": "icons/timer-96.png"
+	},
+	
+	"applications": {
+		"gecko": {
+			"id": "nordTimer-we@nordburg.ca",
+			"strict_min_version": "45.0",
+			"update_url" : "https://www.nordburg.ca/ext/updates.php?extid=nordTimer"
+		}
+	},
+	
+	"browser_action": {
+		"browser_style": true,
+		"default_icon": {
+			"19": "icons/timer-19.png",
+			"38": "icons/timer-38.png"
+		},
+		"default_title": "__MSG_browserActionTitle__"
+	},
+	
+	"background": {
+		"scripts": ["nordTimer-bg.js"]
+	},
+	
+	"default_locale": "en"
+
+}

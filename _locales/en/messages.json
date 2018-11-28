@@ -1,0 +1,14 @@
+{
+	"extensionName" : {
+		"message" : "Nordburg Stopwatch",
+		"description" : "Name of the extension."
+	},
+	"extensionDescription" : {
+		"message" : "A simple stopwatch.",
+		"description" : "Description of the extension."
+	},
+	"browserActionTitle" : {
+		"message" : "Nordburg Timer",
+		"description" : "What the icon shows?"
+	}
+}
